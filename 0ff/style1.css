@@ -7,6 +7,7 @@
 .container{
     height: 100vh;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     background-color: rgb(206, 206, 206);
@@ -67,7 +68,7 @@
     width: 200%;
 }
 
-#password{
+#e,#password{
     margin-top: 10px;
     border: none;
     border-bottom: solid rgb(0, 0, 0) 1px;
@@ -76,11 +77,11 @@
     font-size: large;
 }
 
-#password:focus{
+#e:focus,#password:focus{
     outline: none;
 }
 
-#password::placeholder{
+#e::placeholder,#password::placeholder{
     color: rgb(167, 167, 167);
     font-size: 15px;
 }
