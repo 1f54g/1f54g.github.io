@@ -10,9 +10,10 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: rgb(206, 206, 206);
+   
     font-family: "Segoe UI","Helvetica Neue","Lucida Grande","Roboto","Ebrima","Nirmala UI","Gadugi","Segoe Xbox Symbol","Segoe UI Symbol","Meiryo UI","Khmer UI","Tunga","Lao UI","Raavi","Iskoola Pota","Latha","Leelawadee","Microsoft YaHei UI","Microsoft JhengHei UI","Malgun Gothic","Estrangelo Edessa","Microsoft Himalaya","Microsoft New Tai Lue","Microsoft PhagsPa","Microsoft Tai Le","Microsoft Yi Baiti","Mongolian Baiti","MV Boli","Myanmar Text","Cambria Math";
-    
+    height: auto;
+    background-color: transparent;
 }
 
 .con{
@@ -121,5 +122,19 @@
         height: 100vh;
         padding: 60px;
         margin-top: 0;
+    }
+}
+
+@media (min-width:800px) {
+    footer ul{
+        float: right;
+    }
+
+    ul li{
+        padding-left: 20px;
+    }
+
+    .container{
+        height: 100vh;
     }
 }
